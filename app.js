@@ -23,3 +23,12 @@ const _ = require('lodash');
 const items = [1, [2, [3, [4]]]]
 const newItems = _.flattenDeep(items);
 console.log(newItems)
+
+// npm install
+// installs all missing dependencies that are located in package.json
+
+// dev dependencies (not used in production)
+// npm i nodemon -D (or --save-dev)
+
+// uninstall packages
+//npm uninstall PackageName
